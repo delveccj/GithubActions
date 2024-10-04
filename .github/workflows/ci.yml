@@ -34,7 +34,7 @@ jobs:
         password: ${{ secrets.DOCKER_TOKEN }}
 
     - name: Build and tag Docker image
-      run: docker build -t your-dockerhub-username/flask_project:latest .
+      run: docker build -t delveccj/flask_project:latest .
 
     - name: Run integration tests in Docker container
       run: |
