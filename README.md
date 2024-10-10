@@ -3,7 +3,7 @@ CI/CD for newbies!
 
 Here is a simple Flask server.  
 
-##Running Locally##
+Running Locally
 
 To run the server:
 
